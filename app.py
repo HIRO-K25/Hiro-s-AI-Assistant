@@ -31,6 +31,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title("Hiro's AI Assistant by gpt-3.5-turbo")
+st.image("Hiro and Lulu.png")
 st.write("This is Chatbot on ChatGPT-API.")
 
 user_input = st.text_input("Please input message here.", key="user_input", on_change=communicate)
